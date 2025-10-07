@@ -51,3 +51,9 @@ footer{
     height: 175px;
     width: 300px;
 }
+.droite{
+    display: flex;
+}
+.gauche{
+    display: flex;
+}
