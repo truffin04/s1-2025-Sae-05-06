@@ -47,13 +47,22 @@ footer{
     color: white;
     background-color: #EC5209;
 }
+.titre_page {
+    text-align: center;
+}
 #img{
     height: 175px;
     width: 300px;
 }
 .droite{
     display: flex;
+    
 }
 .gauche{
     display: flex;
+}
+.texte_droite{
+    border: black 1px solid;
+    width: 700px;
+    height: 180px;
 }
