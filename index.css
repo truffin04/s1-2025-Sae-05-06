@@ -1,4 +1,7 @@
 body {
+    --rouge: #FB1D14;
+    --orange: #EC5209;
+    --jaune: #fdc016;
     background-color: #dbdbdbff;
     width: 100%;
     margin: 0;
@@ -12,22 +15,35 @@ body {
 }
 
 .barre {
+
+    transition: 0.3s;
     top:0;
     position: fixed;
     height: 100vh;
-    width: 10%;
+    width: 15%;
     border-radius: 10px;
-    border: 1px solid #EC5209;
-    padding: 10px;;
-    background-color: #FDC013;
+    border: 1px solid --orange;
+    padding: 15px;;
+    background-color: var(--jaune);
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     border-right: 5px groove #EC5209;
+    transform: translateX(-80%);
 }
+.barre:hover {
+    transform: translateX(0%);
 
+
+}
 .barre a {
+
+    background:linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+
+    background-position: bottom right;
+    transition: 0.3s;
     text-decoration: none;
     margin: auto;
     color:black;
@@ -35,12 +51,18 @@ body {
     border: 1px solid black ;
     border-right: 3px groove #000000;
     padding: 10px;
-    
     border-radius: 10px;
 }
-.barre a:hover,.barre .actif {
-    color: white;
-    background-color: #EC5209;
+
+
+.barre a:hover {
+    color:white;
+    background-position: bottom left;
+}
+
+.barre .actif {
+    background-color: var(--jaune);
+
 }
 
 .titre {
@@ -50,10 +72,11 @@ body {
     padding-right: 10px;
 }
 .contenu {
+    transition: 0.3s;
     border-radius:20px;
     border: 4px solid gray;
     background-color:white;
-    margin-left: 11%;
+    margin-left: 6%;
 }
 .contenu .photos {
     gap:20px;
@@ -65,9 +88,8 @@ body {
     flex-wrap: wrap;
 }
 .photos .cadre {
-
     position:relative;
-    border:3px solid #FB1D14;
+    border: 1px solid #FB1D14;
     align-items: center;
     flex-direction: column;
     display: flex;
@@ -75,7 +97,9 @@ body {
 }
 
 .photos .cadre .overlay {
-    background-color: gray;
+    transition: 0.3s;
+    opacity: 0;
+    background-color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -84,6 +108,19 @@ body {
     height: 100%;
     top:0;
     left:0;
+}
+
+.overlay p {
+    color:white;
+    text-align: center;
+}
+
+.overlay p a {
+    color: var(--rouge);
+}
+
+.photos .cadre:hover .overlay {
+    opacity: 0.8;
 }
  img {
     width: 200px;
