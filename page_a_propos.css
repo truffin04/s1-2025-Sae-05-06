@@ -1,54 +1,59 @@
-
-*{
+* {
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
-body{
+
+body {
     display: flex;
 }
+
 .barre {
     border-radius: 10px;
     border: 1px solid #EC5209;
-    padding: 10px;;
+    padding: 10px;
+    
     background-color: #FDC013;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
     
-   
 }
 
-.barre a {
-    text-decoration: none;
+.btn-21{
+ 
     margin: auto;
-    color:black;
-    background-color: white;
-    border: 1px solid black ;
     padding: 10px;
 
-    border-radius: 10px;
-}
-.barre a:hover {
-    color: white;
-    background-color: #EC5209;
+ 
 }
 
-.T1{
-    color: #FB1D14;
-    background-color: #000;
-  
+body{
+    background-color: gray;
 }
-.T2{
+.source{
+    border: 3px solid rgb(214, 26, 26);
+    margin-left:  15px;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    
+}
+.T1 {
+    color: #FB1D14;
+    
+
+}
+
+.T2 {
     color: #FDC016;
-    background-color: #000;
-} 
-h1{
+    
+}
+
+h1 {
     display: flex;
     justify-content: center;
-    background-color: #000; 
-    border-radius: 50px;
     font-size: 70px;
     text-align: center;
     margin: 15px;
@@ -58,43 +63,7 @@ h1{
 
 
 
-
-@property --angle{
-    syntax: "<angle>";
-    initial-value: 0deg;
-    inherits: false;
-}
-
-h1::after, h1::before{
-    
-    content: '';
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-image: conic-gradient(from var(--angle),red, orange, red);
-    top: 50%;
-    left: 50%;
-    translate: -50% -50%;
-    z-index: -1;
-    padding: 5px;
-    border-radius: 50px;
-    animation: 3s spin linear infinite;
-}
-h1::before{
-    filter: blur(1.5rem);
-    opacity: 0.5;
-}
-@keyframes spin{
-    from{
-        --angle: 0deg;
-    }
-    to{
-        --angle: 360deg;
-    }
-}
-
-
-.chose_connu{
+.chose_connu {
     display: flex;
     background-color: #fdbf162f;
     border-radius: 50px;
@@ -104,53 +73,41 @@ h1::before{
     padding: 30px;
     margin: 20px;
 
-} 
-
-
-.locaux{
-    border: 3px solid #FDC016;
-    height: 330px;
-    border-radius: 30px;
-    
 }
 
 
-
-.ankama{
-    border: 3px solid #FDC016;
-    height: 330px;
-    border-radius: 30px;
-}
-.Wakfu{
-    border: 3px solid #FDC016;
+.ankama, .locaux, .Wakfu {
+   
     height: 330px;
     border-radius: 30px;
 }
 
-.info1{
+
+
+.info1 {
     background-color: #fd31162f;
     border-radius: 20px;
     border-style: hidden;
     height: fit-content;
     position: relative;
+    width: 600px;
+    margin-left: 40px;
 }
 
 
-.info1>p{
+.info1>p {
     margin: 30px;
     padding: 10px;
     font-size: 20px;
-    
-    
+
+
 }
-.info1>.debut{
+
+.info1>.debut {
     margin-right: 20px;
     padding: 10px;
     float: right;
     height: 200px;
     border-radius: 20px;
-   
+
 }
-
-
-
