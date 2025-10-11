@@ -1,11 +1,12 @@
-html{
+html {
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .barre {
     border-radius: 10px;
     border: 1px solid #EC5209;
-    padding: 10px;;
+    padding: 10px;
+    ;
     background-color: #FDC013;
     display: flex;
     align-items: center;
@@ -17,20 +18,51 @@ html{
 .barre a {
     text-decoration: none;
     margin: auto;
-    color:black;
+    color: black;
     background-color: white;
-    border: 1px solid black ;
+    border: 1px solid black;
     padding: 10px;
     border-radius: 10px;
 }
+
 .barre a:hover {
     color: white;
     background-color: #EC5209;
 }
 
 body {
-    display:flex;
-    gap:10px;
+    display: flex;
+    gap: 10px;
+}
+
+input[type=checkbox] {
+    display: none;
+}
+
+img:hover{
+    cursor: zoom-in;
+    
+}
+
+img:hover{
+    background-color: rgba(0, 0 ,0 , 0.534);
+}
+
+.container img {
+    display: flex;
+    justify-content: center;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+input[type=checkbox]:checked ~ label > img {
+    transform: scale(2);
+    cursor: zoom-out;
+}
+
+#graphe{
+    display: flex;
+    justify-content: center;
 }
 
 .reste {
