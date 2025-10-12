@@ -3,36 +3,95 @@
 
 }
 
+
+
 body {
-    display: flex;
+    --rouge: #FB1D14;
+    --orange: #EC5209;
+    --jaune: #fdc016;
+    background-color: #EC5209;
+    background: linear-gradient(to bottom, #fdc016 50%, var(--orange) 100%); /*je met un degradé de fond la premmiere 
+    moitié est en jaune et ca va jusqu'au orange à la fin, il faut aussi preciser la direction j'ai mis to bottom donc vers le bas*/
+    min-height: 100vh; /* pour que ca fasse bien toute la hauteur visible*/
+    background-attachment: fixed; /* pour que ca suit quand on scroll */
+    width: 100%;
+    margin: 0;
+    gap:10px;
+    height: 100vh;
+}
+
+
+
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.jaune {
+    background-color: var(--jaune);
+}
+
+.rouge {
+    background-color: var(--rouge);
+}
+
+.orange {
+    background-color: var(--orange)
 }
 
 .barre {
+    z-index: 1;
+    transition: 0.3s;
+    top:0;
+    position: fixed;
+    height: 100vh;
+    width: 15%;
     border-radius: 10px;
-    border: 1px solid #EC5209;
-    padding: 10px;
-    
-    background-color: #FDC013;
+    padding: 15px;;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
-    
+    border-right: 5px groove #EC5209;
+    transform: translateX(-80%);
 }
-
-.btn-21{
- 
+.barre:hover {
+    transform: translateX(0%);
+}
+.barre a {
+    opacity: 0;
+    width: 100%;
+    background:linear-gradient(to right, black 50%, white 50%);
+    background-size: 200% 100%;
+    background-position: bottom right;
+    transition: background-position   0.3s, opacity 0.2s;
+    text-decoration: none;
+    text-align: center;
     margin: auto;
+    color:black;
+    background-color: white;
+    border: 1px solid black ;
+    border-right: 3px groove #000000;
     padding: 10px;
-    cursor: pointer;
-    text-transform: uppercase;
- 
+    border-radius: 10px;
 }
 
-body{
-    background-color: gray;
+.barre:hover a {
+    opacity: 1;
 }
+.barre a:hover {
+    color:white;
+    background-position: bottom left;
+}
+
+.barre .actif {
+    background-size: 100% 100%;
+    background: fixed;
+    background-color: var(--jaune);
+}
+
+
+
 .source{
     border: 3px solid rgb(214, 26, 26);
     margin-left:  15px;
@@ -114,4 +173,119 @@ h1 {
     height: 200px;
     border-radius: 20px;
 
+}
+
+.info2 {
+    background-color: #fd31162f;
+    border-radius: 20px;
+    border-style: hidden;
+    height: fit-content;
+    position: relative;
+    height: fit-content;
+    margin: 40px;
+}
+
+.info2>h2{
+    padding: 20px;
+    font-size: 20px;
+}
+.info2>p {
+    margin: 30px;
+    padding: 10px;
+    font-size: 17px;
+
+
+}
+.info1, .info2{
+    margin: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
+.info2>.debut {
+    margin-left: 20px;
+    padding: 10px;
+    float: right;
+    height: 200px;
+    border-radius: 20px;
+
+
+}
+
+
+.bas {
+    padding: 10px;
+}
+
+footer {
+    
+    background-color: var(--jaune);
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+}
+footer * {
+
+}
+footer .contacts div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+footer .contacts #num_adresse{
+    border-left:1px solid black;
+}
+.centré {
+    text-align: center;
+}
+@media screen and (max-width:768px){
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    h1 {
+
+    }
+
+    .barre {
+        border:none;
+        border-radius: 0px;
+        background-color: var(--jaune);
+        padding: 0%;
+        transform: translateX(0%);
+        position: initial;
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .barre a {
+        border-radius: 0px;
+        opacity: 1;
+    }
+    
+    .contenu {
+        margin: 0px;
+    }
+
+    .contenu .jeux .photos{
+        column-gap: 0px;
+    }
+
+    .photos .cadre img {
+        width: 100%;
+        height: 150px;
+    }
+
+    footer {
+        height: 200px;
+    }
 }
