@@ -1,5 +1,6 @@
 html, body{
     font-family: Arial, Helvetica, sans-serif;
+    background-color: #EC5209;
 }
 
 body {
@@ -65,15 +66,21 @@ body {
 
 .contenue_page {
     width: 100%;
-    padding: 100px;
-    margin: 0px;
+    padding: 0px;
+    margin: 20px;
+}
+.bord_page{
+    border: 2px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #FFF8DC;
 }
    
 /* gère les 2 titres de la page */
 
 .titre_page {
     text-align: center;
-    border: black 1px solid;
+    border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
     background-color: #FDC013;
     padding: 10px;
@@ -130,6 +137,13 @@ body {
     width: 355px;
     border-radius: 5px;
 }
+.icones{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
 
 /*gère les hover des images */
 
@@ -150,6 +164,7 @@ footer{
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    margin-top: 50px;
 }
 footer div {
     width: 100%;
