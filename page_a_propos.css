@@ -10,14 +10,19 @@ body {
     --orange: #EC5209;
     --jaune: #fdc016;
     background-color: #EC5209;
-    background: linear-gradient(to bottom, #fdc016 50%, var(--orange) 100%); /*je met un degradé de fond la premmiere 
+    background: linear-gradient(to bottom, #fdc016 50%, var(--orange) 100%);
+    /*je met un degradé de fond la premmiere 
     moitié est en jaune et ca va jusqu'au orange à la fin, il faut aussi preciser la direction j'ai mis to bottom donc vers le bas*/
-    min-height: 100vh; /* pour que ca fasse bien toute la hauteur visible*/
-    background-attachment: fixed; /* pour que ca suit quand on scroll */
+    min-height: 100vh;
+    /* pour que ca fasse bien toute la hauteur visible*/
+    background-attachment: fixed;
+    /* pour que ca suit quand on scroll */
     width: 100%;
     margin: 0;
-    gap:10px;
+    gap: 10px;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -42,12 +47,13 @@ body {
 .barre {
     z-index: 1;
     transition: 0.3s;
-    top:0;
+    top: 0;
     position: fixed;
     height: 100vh;
     width: 15%;
     border-radius: 10px;
-    padding: 15px;;
+    padding: 15px;
+    ;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -55,22 +61,24 @@ body {
     border-right: 5px groove #EC5209;
     transform: translateX(-80%);
 }
+
 .barre:hover {
     transform: translateX(0%);
 }
+
 .barre a {
     opacity: 0;
     width: 100%;
-    background:linear-gradient(to right, black 50%, white 50%);
+    background: linear-gradient(to right, black 50%, white 50%);
     background-size: 200% 100%;
     background-position: bottom right;
-    transition: background-position   0.3s, opacity 0.2s;
+    transition: background-position 0.3s, opacity 0.2s;
     text-decoration: none;
     text-align: center;
     margin: auto;
-    color:black;
+    color: black;
     background-color: white;
-    border: 1px solid black ;
+    border: 1px solid black;
     border-right: 3px groove #000000;
     padding: 10px;
     border-radius: 10px;
@@ -79,8 +87,9 @@ body {
 .barre:hover a {
     opacity: 1;
 }
+
 .barre a:hover {
-    color:white;
+    color: white;
     background-position: bottom left;
 }
 
@@ -92,55 +101,42 @@ body {
 
 
 
-.source{
+.source {
     border: 3px solid rgb(214, 26, 26);
-    margin-left:  15px;
+    margin-left: 15px;
     border-radius: 15px;
     background-color: white;
     position: relative;
-    
+
 }
+
 .T1 {
     color: #FB1D14;
-    
+
 
 }
 
 .T2 {
     color: #FDC016;
-    
+
 }
 
-h1 {
+
+.title {
     display: flex;
     justify-content: center;
+    flex-direction: row;
+
+
+
+
+}
+
+.title>h1 {
     font-size: 70px;
-    text-align: center;
-    margin: 15px;
-    gap: 20px;
-    position: relative;
-}
-
-
-
-.chose_connu {
-    display: flex;
-    background-color: #fdbf162f;
-    border-radius: 50px;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 40px;
-    padding: 30px;
-    margin: 20px;
 
 }
 
-
-.ankama, .locaux, .Wakfu {
-   
-    height: 330px;
-    border-radius: 30px;
-}
 
 
 
@@ -154,11 +150,15 @@ h1 {
     margin: 40px;
 }
 
-.info1>h2{
+.info1,
+.info2,
+.info3,
+.info4>h2 {
     padding: 20px;
     font-size: 20px;
     margin-left: 350px;
 }
+
 .info1>p {
     margin: 30px;
     padding: 10px;
@@ -173,7 +173,7 @@ h1 {
     float: left;
     height: 200px;
     border-radius: 20px;
-    
+
 
 }
 
@@ -187,11 +187,7 @@ h1 {
     margin: 40px;
 }
 
-.info2>h2{
-    padding: 20px;
-    font-size: 20px;
 
-}
 .info2>p {
     margin: 30px;
     padding: 10px;
@@ -211,7 +207,8 @@ h1 {
 
 }
 
-.info3,.info4 {
+.info3,
+.info4 {
     background-color: #fd31162f;
     border-radius: 20px;
     border-style: hidden;
@@ -221,12 +218,15 @@ h1 {
     margin: 40px;
 }
 
-.info3,.info4>h2{
+.info3,
+.info4>h2 {
     padding: 20px;
     font-size: 20px;
     margin-left: 350px;
 }
-.info3,.info4>p {
+
+.info3,
+.info4>p {
     margin: 30px;
     padding: 10px;
     font-size: 17px;
@@ -240,13 +240,14 @@ h1 {
     float: left;
     height: 200px;
     border-radius: 20px;
-    
+
 
 }
 
 
-.info4>.image,h1 {
- 
+.info4>.image,
+h1 {
+
     margin-left: 20px;
     padding: 10px;
     float: right;
@@ -259,17 +260,22 @@ h1 {
 
 
 
-.info1, .info2, .info3, .info4{
+.info1,
+.info2,
+.info3,
+.info4 {
     margin: 200px;
     margin-left: 250px;
     margin-right: 250px;
 }
+
+
 .bas {
     padding: 10px;
 }
 
 footer {
-    
+
     background-color: var(--jaune);
     height: 150px;
     border-radius: 10px;
@@ -282,32 +288,34 @@ footer div {
     width: 100%;
     display: flex;
 }
-footer * {
 
-}
+footer * {}
+
 footer .contacts div {
     display: flex;
     justify-content: center;
     width: 100%;
     border-bottom: 1px solid black;
 }
-footer .contacts #num_adresse{
-    border-left:1px solid black;
+
+footer .contacts #num_adresse {
+    border-left: 1px solid black;
 }
+
 .centré {
     text-align: center;
 }
-@media screen and (max-width:768px){
+
+@media screen and (max-width:768px) {
     body {
         display: flex;
         flex-direction: column;
     }
-    h1 {
 
-    }
+    h1 {}
 
     .barre {
-        border:none;
+        border: none;
         border-radius: 0px;
         background-color: var(--jaune);
         padding: 0%;
@@ -323,12 +331,12 @@ footer .contacts #num_adresse{
         border-radius: 0px;
         opacity: 1;
     }
-    
+
     .contenu {
         margin: 0px;
     }
 
-    .contenu .jeux .photos{
+    .contenu .jeux .photos {
         column-gap: 0px;
     }
 
