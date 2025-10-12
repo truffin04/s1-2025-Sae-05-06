@@ -157,6 +157,7 @@ h1 {
 .info1>h2{
     padding: 20px;
     font-size: 20px;
+    margin-left: 350px;
 }
 .info1>p {
     margin: 30px;
@@ -166,12 +167,13 @@ h1 {
 
 }
 
-.info1>.debut {
+.info1>.image {
     margin-right: 20px;
     padding: 10px;
     float: left;
     height: 200px;
     border-radius: 20px;
+    
 
 }
 
@@ -188,6 +190,7 @@ h1 {
 .info2>h2{
     padding: 20px;
     font-size: 20px;
+
 }
 .info2>p {
     margin: 30px;
@@ -196,12 +199,9 @@ h1 {
 
 
 }
-.info1, .info2{
-    margin: 200px;
-    margin-left: 250px;
-    margin-right: 250px;
-}
-.info2>.debut {
+
+
+.info2>.image {
     margin-left: 20px;
     padding: 10px;
     float: right;
@@ -211,7 +211,59 @@ h1 {
 
 }
 
+.info3,.info4 {
+    background-color: #fd31162f;
+    border-radius: 20px;
+    border-style: hidden;
+    height: fit-content;
+    position: relative;
+    height: fit-content;
+    margin: 40px;
+}
 
+.info3,.info4>h2{
+    padding: 20px;
+    font-size: 20px;
+    margin-left: 350px;
+}
+.info3,.info4>p {
+    margin: 30px;
+    padding: 10px;
+    font-size: 17px;
+
+
+}
+
+.info3>.image {
+    margin-right: 20px;
+    padding: 10px;
+    float: left;
+    height: 200px;
+    border-radius: 20px;
+    
+
+}
+
+
+.info4>.image,h1 {
+ 
+    margin-left: 20px;
+    padding: 10px;
+    float: right;
+    height: 200px;
+    border-radius: 20px;
+    font-size: small;
+
+}
+
+
+
+
+.info1, .info2, .info3, .info4{
+    margin: 200px;
+    margin-left: 250px;
+    margin-right: 250px;
+}
 .bas {
     padding: 10px;
 }
