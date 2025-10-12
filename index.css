@@ -4,9 +4,10 @@ body {
     --orange: #EC5209;
     --jaune: #fdc016;
     background-color: #EC5209;
-    background: linear-gradient(to bottom, #fdc016 50%, var(--orange) 100%);
-    min-height: 100vh;
-    background-attachment: fixed;
+    background: linear-gradient(to bottom, #fdc016 50%, var(--orange) 100%); /*je met un degradé de fond la premmiere 
+    moitié est en jaune et ca va jusqu'au orange à la fin, il faut aussi preciser la direction j'ai mis to bottom donc vers le bas*/
+    min-height: 100vh; /* pour que ca fasse bien toute la hauteur visible*/
+    background-attachment: fixed; /* pour que ca suit quand on scroll */
     width: 100%;
     margin: 0;
     gap:10px;
@@ -125,7 +126,7 @@ h2 {
     display: inline;
 }
 
-.haut {
+header {
     border-radius: 10px;
     padding: 20px;
     background-color: white;
