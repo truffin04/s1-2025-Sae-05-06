@@ -62,7 +62,8 @@ body {
     background-color: #FDC013;
 }
 
-/* gère tout le contenue de la page */
+/* gère tout le contenue de la page en terme 
+de positionnement par rapport à la page */
 
 .contenue_page {
     width: 100%;
