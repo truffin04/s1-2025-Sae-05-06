@@ -7,6 +7,7 @@ html, body{
 body {
     display: flex;
     gap:10px;
+    --jaune: #fdc016;
 }
 
 /* gère la barre de navigation entre les 4 pages différentes */
@@ -95,17 +96,39 @@ body {
     border-radius: 15px;
 }
 
-/*gère les infos sur le hover*/
+/*gère les hover des images */
 
-#img:hover .lien_jeu[
-    
-]
+#img:hover{
+    background-color: grey;
+    opacity: 10;
+}
+
 
 
 /* gère le bas de la page */
 
 footer{
+    background-color: #fdc016;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer div {
+    width: 100%;
+    display: flex;
+}
+footer .contacts div {
     display: flex;
     justify-content: center;
-    height:310px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+footer .contacts #num_adresse{
+    border-left:1px solid black;
+}
+.centré {
+    text-align: center;
 }
