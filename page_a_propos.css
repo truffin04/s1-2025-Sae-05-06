@@ -134,15 +134,7 @@ body {
 
 }
 
-.txt {
-    background-color: #fd31162f;
-    border-radius: 20px;
-    border-style: hidden;
-    height: fit-content;
-    position: relative;
-    height: fit-content;
-    margin: 40px;
-}
+
 
 .info1,
 .info2,
@@ -153,7 +145,7 @@ body {
     margin-left: 350px;
 }
 
-.info1>p {
+.info1,.info2,.info3,.info4>p {
     margin: 30px;
     padding: 10px;
     font-size: 17px;
@@ -187,12 +179,6 @@ body {
 }
 
 
-.info2>p {
-    margin: 30px;
-    padding: 10px;
-    font-size: 17px;
-
-}
 
 
 .info2>.image1 {
@@ -210,57 +196,42 @@ body {
     border-radius: 20px;
 }
 
-.info3,
-.info4 {
-    background-color: #fd31162f;
+
+
+.info3>.image1 {
+    margin-left: 90px;
+    padding: 10px;
+    height: 300px;
     border-radius: 20px;
-    border-style: hidden;
-    height: fit-content;
-    position: relative;
-    height: fit-content;
-    margin: 40px;
-}
 
-.info3,
-.info4>h2 {
-    padding: 20px;
-    font-size: 20px;
-    margin-left: 350px;
 }
-
-.info3,
-.info4>p {
-    margin: 30px;
+.info3>.image2{
+    margin-right: 90px;
     padding: 10px;
-    font-size: 17px;
-
-
-}
-
-.info3>.image {
-    margin-right: 20px;
-    padding: 10px;
-    float: left;
     height: 200px;
-    border-radius: 20px;
-
-
-}
-
-
-.info4>.image,
-h1 {
-
-    margin-left: 20px;
-    padding: 10px;
     float: right;
-    height: 200px;
     border-radius: 20px;
-    font-size: small;
-
 }
 
 
+.info4>.image1{
+    margin-left: 90px;
+    padding: 10px;
+    height: 300px;
+    border-radius: 20px;
+
+}
+.info4>h6{
+    margin-left: 110px;
+    font-size: 17px;
+}
+.info4>.image2{
+    margin-right: 90px;
+    padding: 10px;
+    height: 300px;
+    float: right;
+    border-radius: 20px;
+}
 
 
 .info1,
