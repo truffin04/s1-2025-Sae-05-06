@@ -17,6 +17,18 @@ body {
     height: 100vh;
 }
 
+h4{
+    font-size: 17px;
+}
+
+p{
+    font-size: 14px;
+}
+
+h1{
+    font-size: 20px;
+}
+
 a {
     color:var(--orange)
 }
@@ -91,9 +103,22 @@ a {
 
 .fond_blanc{
     display: flex;
-    justify-content: left;
+    justify-content: flex-start;
+    flex-wrap: wrap;
     background-color: white;
     padding: 20px;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 3vw;
+    border-radius: 8px;
+}
+
+.map{
+    display:flex;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+    margin-top: 2vw;
     margin-left: 5vw;
     margin-right: 3vw;
     border-radius: 8px;
@@ -134,7 +159,7 @@ img{
 }
 
 footer {
-    
+    margin-top: 20px;
     background-color: var(--jaune);
     height: 150px;
     border-radius: 10px;
@@ -147,9 +172,7 @@ footer div {
     width: 100%;
     display: flex;
 }
-footer * {
 
-}
 footer .contacts div {
     display: flex;
     justify-content: center;
