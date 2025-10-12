@@ -92,16 +92,17 @@ h1 {
     height: fit-content;
     position: relative;
     height: fit-content;
-    margin-left: 40px;
+    margin: 40px;
 }
 
 .info1>h2{
     padding: 20px;
+    font-size: 20px;
 }
 .info1>p {
     margin: 30px;
     padding: 10px;
-    font-size: 20px;
+    font-size: 17px;
 
 
 }
