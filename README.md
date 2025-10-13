@@ -22,3 +22,93 @@ puis le à propos de l'entreprise (comportant tout ce qui concerne son histoire)
 , dans une 3ème page, nous aurons les productions de Ankama ( les jeux, séries, jeux 
 de société), et pour finir une page concernant l'économie ( tout ce qui se passe 
 au niveau du staff et le capital)
+
+## Choix de conception  
+
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de ******* (disponible [ici](https://www.entreprise.com/fr-fr/)), du site d'un de ses principaux concurrents [xxxxxxxxxx](https://www.entreprise2.fr/) et nous avons pris comme référence la charte de ************** disponible [ici](doc/charte_graphique.pdf).    
+
+
+## Développement Site Web et Validation des pages
+
+<!--  style="width=400px" ne fonctionne pas -->
+
+### Page d'accueil
+
+**Auteur : TACHERIFT SOFIANE**  
+
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+### Page des productions
+
+**Auteur : SEYDOU Loonis**  
+
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+### Page de l'économie
+
+**Auteur : RUFFIN Tom**  
+
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+### Page À propos 
+
+**Auteur : TUTIN Nathan**  
+
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+
+<br>
+<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+
+<br>
+<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+
+## Répartition du travail
+
+### Hébergement du site sur github/gitlab et BitBucket
+
+- SEYDOU Loonis
+
+### Planification - Diagramme de GANTT
+
+- SEYDOU Loonis
+
+### Recherches d'informations
+
+- RUFFIN Tom 
+    - (par rapport à l'économie)
+- SEYDOU Loonis 
+    - (par rapport au production)
+- TACHERIFT Sofiane 
+    - (par rapport au infos général sur l'entreprise)
+- TUTIN Nathan 
+
+
+### Développement site
+
+- TACHERIFT Sofiane
+  - Page d’accueil
+  - "Template" de page (Navbar/Footer)
+- SEYDOU Loonis
+  - Page Production
+- RUFFIN Tom
+  - Page économie
+- TUTIN Nathan 
+  - Page À propos
