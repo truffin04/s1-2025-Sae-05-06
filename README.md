@@ -92,15 +92,27 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 - SEYDOU Loonis
 
+### Graphes économique 
+
+- RUFFIN Tom
+
+### Questionnaire - Client
+
+- RUFFIN Tom (très investi dans le 1ére)
+- SEYDOU Loonis
+- TACHERIFT Sofiane
+- TUTIN Nathan
+
 ### Recherches d'informations
 
 - RUFFIN Tom 
     - (par rapport à l'économie)
 - SEYDOU Loonis 
-    - (par rapport au production)
+    - (par rapport à la production)
 - TACHERIFT Sofiane 
-    - (par rapport au infos général sur l'entreprise)
+    - (par rapport aux infos générales sur l'entreprise)
 - TUTIN Nathan 
+    - (par rapport à une vision assez globale sur l'entreprise)
 
 
 ### Développement site
@@ -114,3 +126,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
   - Page économie
 - TUTIN Nathan 
   - Page À propos
+
+### Réalisation du Readme
+
+- SEYDOU Loonis
