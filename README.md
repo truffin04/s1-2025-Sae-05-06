@@ -74,7 +74,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 **Auteur : TUTIN Nathan**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Ftruffin04.github.io%2Fs1-2025-Sae-05-06%2Fpage_a_propos.html)
 
 <br>
 <img src="/Images/w3c_page-a-propos.png" width="400px" alt="capture ecran sur ecoconcept">
