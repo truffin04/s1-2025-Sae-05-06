@@ -50,10 +50,10 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 
 **Auteur : SEYDOU Loonis**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Ftruffin04.github.io%2Fs1-2025-Sae-05-06%2Fpage_production.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/w3c_page-production.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
@@ -65,7 +65,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/w3c_page-economie.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
