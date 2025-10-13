@@ -115,6 +115,10 @@ a {
     box-shadow: 5px 5px 20px var(--orange);
 }
 
+img{
+    margin-bottom: 40px;
+}
+
 input[type=checkbox] {
     display: none;
 }
@@ -169,6 +173,54 @@ img:hover{
     transform: scale(1.5);
     cursor: zoom-out;
     margin-left: -50%;
+}
+
+.effectifAnkama{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.effectifAnkama img {
+    display: flex;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+.effectifUbisoft{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.effectifUbisoft img {
+    display: flex;
+    transition: transform 0.25s ease;
+    cursor: zoom-in;
+}
+
+.effectifanka1{
+    height:20vw;
+    width:30vw;
+    margin:auto;
+}
+
+.effectifUbisoft1{
+    height:20vw;
+    width:30vw;
+    margin:auto;
+    margin-right: 300px;
+}
+
+#effectifanka[type=checkbox]:checked ~ label > img {
+    transform: scale(1.5);
+    cursor: zoom-out;
+    margin-left: 50%;
+}
+
+#effectifUbisoft[type=checkbox]:checked ~ label > img {
+    transform: scale(1.5);
+    cursor: zoom-out;
 }
 
 footer {
