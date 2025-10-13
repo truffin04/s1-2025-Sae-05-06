@@ -2,8 +2,8 @@
 
 ## Ankama
 
-[L'accès vers le site](https://truffin04.github.io/s1-2025-Sae-05-06/)
-[L'accès avec gitlab](https://s1-2025-sae-05-06-6c5ff2.gitlab.io )
+[L'accès vers le site](https://truffin04.github.io/s1-2025-Sae-05-06/)<br>
+[L'accès avec gitlab](https://s1-2025-sae-05-06-6c5ff2.gitlab.io )<br>
 [L'accès avec bitbucket]()
 
 ## Membres du groupe :
