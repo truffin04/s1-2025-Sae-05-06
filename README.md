@@ -38,10 +38,10 @@ Pour la conception du site, nous nous sommes grandement inspirés du site offici
 
 **Auteur : TACHERIFT SOFIANE**  
 
-Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
+Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&doc=https%3A%2F%2Ftruffin04.github.io%2Fs1-2025-Sae-05-06%2F)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/w3c_page-aaccueil.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
