@@ -82,6 +82,7 @@ de positionnement par rapport à la page */
     width: 100%;
     padding: 0px;
     margin: 20px;
+    box-shadow: 5px 5px 20px var(--orange);
 }
 .bord_page{
     border: 0px rgba(0, 0, 0, 0);
