@@ -14,7 +14,11 @@ body {
 }
 
 /* gère la barre de navigation entre les 4 pages différentes */
+
+
+
 .barre {
+    box-sizing: border-box;
     z-index: 100;
     transition: 0.3s;
     top:0;
@@ -34,6 +38,7 @@ body {
     transform: translateX(0%);
 }
 .barre a {
+    box-sizing: border-box;
     opacity: 0;
     width: 100%;
     background:linear-gradient(to right, black 50%, white 50%);
@@ -55,11 +60,13 @@ body {
     opacity: 1;
 }
 .barre a:hover {
+    
     color:white;
     background-position: bottom left;
 }
 
 .barre .actif {
+    box-sizing: border-box;
     background-size: 100% 100%;
     background: fixed;
     background-color: #FDC013;
@@ -77,10 +84,12 @@ de positionnement par rapport à la page */
     margin: 20px;
 }
 .bord_page{
-    border: 2px solid rgba(0, 0, 0, 0);
+    border: 0px rgba(0, 0, 0, 0);
     border-radius: 10px;
     padding: 10px;
-    background-color: #fff8dce2;
+    margin-left: 50px;
+    background-color: #e2e2e2 ;
+    border-radius: 15px;
 }
    
 /* gère les 2 titres de la page */
@@ -89,12 +98,13 @@ de positionnement par rapport à la page */
     text-align: center;
     border: 1px solid rgba(0, 0, 0, 0);
     border-radius: 10px;
-    background-color: #EC5209;
+    background-color: #ec5109;
     padding: 10px;
     margin-bottom: 20px;
     width: 550px;
     margin-left: 33%;
     margin-bottom: 50px;
+
 }
 .page_titre_inter{
     text-align: center;
@@ -103,6 +113,7 @@ de positionnement par rapport à la page */
     background-color: #ec5109;
     width: 600px;
     margin-top: 50px;
+    margin-left: 75px;
 }
 
 /* gère les divs des images des jeux et de leur descriptif */
@@ -125,10 +136,12 @@ de positionnement par rapport à la page */
     height: 170px;
     text-align: center;
     border: black 1px solid;
-    border-radius: 5px;
+    border-radius: 15px;
     position: relative;
     margin-top: 50px;
     z-index: 1;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .lien_jeu{
@@ -145,6 +158,7 @@ de positionnement par rapport à la page */
 *h1{
     font-size: 20px;
 }
+
 /* gère les images */
 .image_gauche{
     z-index: 10;
@@ -192,7 +206,7 @@ footer .contacts div {
     width: 100%;
     border-bottom: 1px solid black;
 }
-footer .=contacts #num_adresse{
+footer .contacts #num_adresse{
     border-left:1px solid black;
 }
 .centré {
