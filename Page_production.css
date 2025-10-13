@@ -131,7 +131,6 @@ de positionnement par rapport à la page */
     z-index: 1;
 }
 
-
 .lien_jeu{
     position: absolute;
 }
@@ -146,8 +145,6 @@ de positionnement par rapport à la page */
 *h1{
     font-size: 20px;
 }
-
-
 /* gère les images */
 .image_gauche{
     z-index: 10;
@@ -166,7 +163,6 @@ de positionnement par rapport à la page */
 }
 
 /*gère les hover des images */
-
 #img:hover{
     background-color: grey;
     opacity: 10;
