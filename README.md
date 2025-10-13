@@ -77,7 +77,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&showoutline=yes&showimagereport=yes&doc=https%3A%2F%2Fdemo-am90.github.io%2Fs1-demo%2Findex.html)
 
 <br>
-<img src="doc/capture_1_W3C.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="/Images/w3c_page-a-propos.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
 <img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
