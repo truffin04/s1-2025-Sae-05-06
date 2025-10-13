@@ -102,7 +102,7 @@ body {
 
 
 .source {
-    border: 3px solid rgb(214, 26, 26);
+    border: 3px solid var(--rouge);
     margin-left: 15px;
     border-radius: 15px;
     background-color: white;
@@ -126,10 +126,12 @@ body {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 40px;
+    gap: 30px;
 
 }
 
-.title>h1 {
+.title {
     font-size: 70px;
 
 }
@@ -145,7 +147,10 @@ body {
     margin-left: 350px;
 }
 
-.info1,.info2,.info3,.info4>p {
+.info1,
+.info2,
+.info3,
+.info4>p {
     margin: 30px;
     padding: 10px;
     font-size: 17px;
@@ -159,7 +164,8 @@ body {
     border-radius: 20px;
 
 }
-.info1>.image2{
+
+.info1>.image2 {
     margin-right: 90px;
     padding: 10px;
     height: 300px;
@@ -188,7 +194,8 @@ body {
     border-radius: 20px;
 
 }
-.info2>.image2{
+
+.info2>.image2 {
     margin-right: 90px;
     padding: 10px;
     height: 300px;
@@ -205,7 +212,8 @@ body {
     border-radius: 20px;
 
 }
-.info3>.image2{
+
+.info3>.image2 {
     margin-right: 90px;
     padding: 10px;
     height: 200px;
@@ -214,18 +222,20 @@ body {
 }
 
 
-.info4>.image1{
+.info4>.image1 {
     margin-left: 90px;
     padding: 10px;
     height: 300px;
     border-radius: 20px;
 
 }
-.info4>h6{
+
+.info4>h6 {
     margin-left: 110px;
     font-size: 17px;
 }
-.info4>.image2{
+
+.info4>.image2 {
     margin-right: 90px;
     padding: 10px;
     height: 300px;
@@ -238,7 +248,7 @@ body {
 .info2,
 .info3,
 .info4 {
-    margin: 100px;
+
     margin-left: 250px;
     margin-right: 250px;
 }
