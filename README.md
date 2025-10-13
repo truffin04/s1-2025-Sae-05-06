@@ -21,11 +21,11 @@ Tout d'abord, la page d'accueil avec quelques informations générales sur l'ent
 puis le à propos de l'entreprise (comportant tout ce qui concerne son histoire)
 , dans une 3ème page, nous aurons les productions de Ankama ( les jeux, séries, jeux 
 de société), et pour finir une page concernant l'économie ( tout ce qui se passe 
-au niveau du staff et le capital)
+au niveau du staff et le capital) 
 
 ## Choix de conception  
 
-Pour la conception du site, nous nous sommes grandement inspirés du site officiel de ******* (disponible [ici](https://www.entreprise.com/fr-fr/)), du site d'un de ses principaux concurrents [xxxxxxxxxx](https://www.entreprise2.fr/) et nous avons pris comme référence la charte de ************** disponible [ici](doc/charte_graphique.pdf).    
+Pour la conception du site, nous nous sommes grandement inspirés du site officiel de Ankama (disponible [ici](https://www.ankama.com)), du site d'un de ses principaux concurrents [motiontwin](https://motiontwin.com) et nous avons pris comme référence la charte de graphique disponible [ici](https://www.arkane-studios.com).    
 
 
 ## Développement Site Web et Validation des pages
