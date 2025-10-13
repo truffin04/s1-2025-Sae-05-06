@@ -149,7 +149,7 @@ de positionnement par rapport à la page */
 .image_gauche{
     z-index: 10;
 }
-#imga{
+.imga{
     height: 220px;
     width: 355px;
     border-radius: 5px;
