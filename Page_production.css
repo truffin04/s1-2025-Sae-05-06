@@ -163,7 +163,7 @@ de positionnement par rapport à la page */
 }
 
 /*gère les hover des images */
-#img:hover{
+.imga:hover{
     background-color: grey;
     opacity: 10;
 }
