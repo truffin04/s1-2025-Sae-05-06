@@ -149,7 +149,7 @@ de positionnement par rapport à la page */
 .image_gauche{
     z-index: 10;
 }
-#img{
+#imga{
     height: 220px;
     width: 355px;
     border-radius: 5px;
@@ -192,7 +192,7 @@ footer .contacts div {
     width: 100%;
     border-bottom: 1px solid black;
 }
-footer .contacts #num_adresse{
+footer .=contacts #num_adresse{
     border-left:1px solid black;
 }
 .centré {
