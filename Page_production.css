@@ -200,19 +200,34 @@ footer{
     margin-left: 50px;
     box-shadow: 5px 5px 20px var(--orange);
 }
-footer div {
-    width: 100%;
-    display: flex;
+
+footer img {
+    width: 30px;
 }
-footer .contacts div {
+
+footer .contacts {
     display: flex;
     justify-content: center;
-    width: 100%;
+}
+
+footer .contacts #num_adresse {
+    width:  70%;
     border-bottom: 1px solid black;
 }
-footer .contacts #num_adresse{
-    border-left:1px solid black;
+
+footer .contacts nav {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
 }
-.centré {
-    text-align: center;
+
+footer .contacts nav .lien {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    column-gap: 3px;
 }
+

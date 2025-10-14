@@ -280,7 +280,6 @@ footer div {
     display: flex;
 }
 
-footer * {}
 
 footer .contacts div {
     display: flex;
@@ -302,8 +301,6 @@ footer .contacts #num_adresse {
         display: flex;
         flex-direction: column;
     }
-
-    h1 {}
 
     .barre {
         border: none;
