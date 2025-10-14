@@ -44,7 +44,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 <img src="Images/w3c_page-accueil.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/ecoconcept_page_acceuil.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ### Page des productions
 
@@ -56,7 +56,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 <img src="Images/w3c_page-production.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/ecoconcept_page_productions.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ### Page de l'économie
 
@@ -68,7 +68,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 <img src="Images/w3c_page-economie.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/ecoconcept_page_economie.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ### Page À propos 
 
@@ -80,7 +80,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 <img src="/Images/w3c_page-a-propos.png" width="400px" alt="capture ecran sur ecoconcept">
 
 <br>
-<img src="doc/capture_1_ecoconcept.png" width="400px" alt="capture ecran sur ecoconcept">
+<img src="Images/ecoconcept_page_a_propos.png" width="400px" alt="capture ecran sur ecoconcept">
 
 ## Répartition du travail
 
