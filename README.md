@@ -130,3 +130,7 @@ Verification W3C : [Détail ICI](https://validator.w3.org/nu/?showsource=yes&sho
 ### Réalisation du Readme
 
 - SEYDOU Loonis
+
+## Contributeurs
+
+![capture d'écran de sur la contribution des membres du projet](Images/contributors.png)
